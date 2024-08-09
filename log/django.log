@@ -4,11 +4,11 @@ Not Found: /
 "GET /prefix/ HTTP/1.1" 200 40
 "GET /prefix/about HTTP/1.1" 301 0
 "GET /prefix/about/ HTTP/1.1" 200 26
-C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\lecture_project\settings.py changed, reloading.
+C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\gb_python_django\settings.py changed, reloading.
 Watching for file changes with StatReloader
 Error in about page: division by zero
 Traceback (most recent call last):
-  File "C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp\views.py", line 15, in about
+  File "C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp\views.py", line 15, in about
     result = 1/0
 ZeroDivisionError: division by zero
 "GET /prefix/about/ HTTP/1.1" 200 26
@@ -25,28 +25,28 @@ Index page accessed
 "GET /prefix/about HTTP/1.1" 301 0
 Error in about page: division by zero
 Traceback (most recent call last):
-  File "C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp\views.py", line 15, in about
+  File "C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp\views.py", line 15, in about
     result = 1/0
 ZeroDivisionError: division by zero
 "GET /prefix/about/ HTTP/1.1" 200 26
 Watching for file changes with StatReloader
-C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp\urls.py changed, reloading.
+C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp\urls.py changed, reloading.
 Watching for file changes with StatReloader
 Watching for file changes with StatReloader
 "GET /prefix/anna HTTP/1.1" 301 0
 "GET /prefix/anna/ HTTP/1.1" 200 92
-C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp\views.py changed, reloading.
+C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp\views.py changed, reloading.
 Watching for file changes with StatReloader
-C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\lecture_project\settings.py changed, reloading.
+C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\gb_python_django\settings.py changed, reloading.
 Watching for file changes with StatReloader
-C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\lecture_project\settings.py changed, reloading.
+C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\gb_python_django\settings.py changed, reloading.
 INFO 2024-07-25 13:54:50,669 autoreload 25824 6688 Watching for file changes with StatReloader
 INFO 2024-07-25 13:55:18,317 autoreload 9180 15376 Watching for file changes with StatReloader
 INFO 2024-07-25 13:55:26,040 views 9180 7028 Index page accessed
 INFO 2024-07-25 13:55:26,041 basehttp 9180 7028 "GET /prefix/ HTTP/1.1" 200 40
 ERROR 2024-07-25 13:55:30,403 views 9180 7028 Error in about page: division by zero
 Traceback (most recent call last):
-  File "C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp\views.py", line 15, in about
+  File "C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp\views.py", line 15, in about
     result = 1/0
 ZeroDivisionError: division by zero
 INFO 2024-07-25 13:55:30,409 basehttp 9180 7028 "GET /prefix/about/ HTTP/1.1" 200 26
@@ -83,26 +83,26 @@ WARNING 2024-07-30 09:59:03,557 log 21564 19216 Not Found: /
 WARNING 2024-07-30 09:59:03,558 basehttp 21564 19216 "GET / HTTP/1.1" 404 2279
 WARNING 2024-07-30 09:59:10,752 log 21564 19216 Not Found: /les3
 WARNING 2024-07-30 09:59:10,753 basehttp 21564 19216 "GET /les3 HTTP/1.1" 404 2549
-INFO 2024-07-30 09:59:28,097 autoreload 21564 25736 C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\lecture_project\urls.py changed, reloading.
+INFO 2024-07-30 09:59:28,097 autoreload 21564 25736 C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\gb_python_django\urls.py changed, reloading.
 INFO 2024-07-30 09:59:28,471 autoreload 26268 16364 Watching for file changes with StatReloader
 WARNING 2024-07-30 09:59:29,207 log 26268 14892 Not Found: /les3
 WARNING 2024-07-30 09:59:29,207 basehttp 26268 14892 "GET /les3 HTTP/1.1" 404 2310
 INFO 2024-07-30 09:59:36,451 basehttp 26268 14892 "GET /les3/hello HTTP/1.1" 301 0
 INFO 2024-07-30 09:59:36,455 basehttp 26268 12504 "GET /les3/hello/ HTTP/1.1" 200 12
 INFO 2024-07-30 09:59:40,104 basehttp 26268 12504 "GET /les3/hello2/ HTTP/1.1" 200 12
-INFO 2024-07-30 10:00:17,804 autoreload 26268 16364 C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp3\views.py changed, reloading.
+INFO 2024-07-30 10:00:17,804 autoreload 26268 16364 C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp3\views.py changed, reloading.
 INFO 2024-07-30 10:00:18,155 autoreload 26760 18592 Watching for file changes with StatReloader
 INFO 2024-07-30 10:14:08,859 autoreload 18496 25172 Watching for file changes with StatReloader
-INFO 2024-07-30 10:14:28,351 autoreload 18496 25172 C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp3\urls.py changed, reloading.
+INFO 2024-07-30 10:14:28,351 autoreload 18496 25172 C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp3\urls.py changed, reloading.
 INFO 2024-07-30 10:14:28,782 autoreload 16236 2840 Watching for file changes with StatReloader
-INFO 2024-07-30 10:16:16,186 autoreload 16236 2840 C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp3\urls.py changed, reloading.
+INFO 2024-07-30 10:16:16,186 autoreload 16236 2840 C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp3\urls.py changed, reloading.
 INFO 2024-07-30 10:16:16,499 autoreload 22172 16856 Watching for file changes with StatReloader
 WARNING 2024-07-30 10:16:30,444 log 22172 15136 Not Found: /les3/post/2021
 WARNING 2024-07-30 10:16:30,445 basehttp 22172 15136 "GET /les3/post/2021 HTTP/1.1" 404 3215
 INFO 2024-07-30 10:16:36,123 basehttp 22172 15136 "GET /les3/posts/2021 HTTP/1.1" 301 0
 INFO 2024-07-30 10:16:36,129 basehttp 22172 18856 "GET /les3/posts/2021/ HTTP/1.1" 200 19
 INFO 2024-07-30 10:16:42,966 basehttp 22172 18856 "GET /les3/posts/2021/6 HTTP/1.1" 200 21
-INFO 2024-07-30 10:21:14,472 autoreload 22172 16856 C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp3\views.py changed, reloading.
+INFO 2024-07-30 10:21:14,472 autoreload 22172 16856 C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp3\views.py changed, reloading.
 INFO 2024-07-30 10:21:14,824 autoreload 22188 13020 Watching for file changes with StatReloader
 INFO 2024-07-30 10:24:11,242 basehttp 22188 1368 "GET /les3/posts/2021/6/python HTTP/1.1" 200 191
 INFO 2024-07-30 20:27:40,337 autoreload 10100 18536 Watching for file changes with StatReloader
@@ -119,12 +119,12 @@ WARNING 2024-07-31 00:24:35,345 log 8764 27020 Not Found: /favicon.ico
 WARNING 2024-07-31 00:24:35,348 basehttp 8764 27020 "GET /favicon.ico HTTP/1.1" 404 2331
 WARNING 2024-07-31 00:24:43,348 log 8764 27020 Not Found: /les3/template/if
 WARNING 2024-07-31 00:24:43,349 basehttp 8764 27020 "GET /les3/template/if HTTP/1.1" 404 3582
-INFO 2024-07-31 00:24:54,310 autoreload 8764 27900 C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp3\urls.py changed, reloading.
+INFO 2024-07-31 00:24:54,310 autoreload 8764 27900 C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp3\urls.py changed, reloading.
 INFO 2024-07-31 00:24:54,713 autoreload 23140 12676 Watching for file changes with StatReloader
 INFO 2024-07-31 00:24:57,735 basehttp 23140 29672 "GET /les3/template/if HTTP/1.1" 200 280
 INFO 2024-07-31 00:27:54,178 basehttp 23140 9308 "GET /les3/template/ HTTP/1.1" 200 167
 INFO 2024-07-31 00:28:28,989 basehttp 23140 29236 "GET /les3/posts/2021/6/python HTTP/1.1" 200 191
-INFO 2024-07-31 00:36:48,120 autoreload 23140 12676 C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp3\urls.py changed, reloading.
+INFO 2024-07-31 00:36:48,120 autoreload 23140 12676 C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp3\urls.py changed, reloading.
 INFO 2024-07-31 00:36:53,493 autoreload 25900 23900 Watching for file changes with StatReloader
 WARNING 2024-07-31 00:36:55,132 log 25900 9128 Not Found: /
 WARNING 2024-07-31 00:36:55,135 basehttp 25900 9128 "GET / HTTP/1.1" 404 2280
@@ -142,27 +142,27 @@ INFO 2024-07-31 00:52:14,758 basehttp 23480 17720 "GET /les3 HTTP/1.1" 301 0
 INFO 2024-07-31 00:52:14,767 basehttp 23480 27808 "GET /les3/ HTTP/1.1" 200 173
 INFO 2024-07-31 00:52:20,960 basehttp 23480 27808 "GET /les3/about HTTP/1.1" 301 0
 INFO 2024-07-31 00:52:20,965 basehttp 23480 21704 "GET /les3/about/ HTTP/1.1" 200 201
-INFO 2024-07-31 00:55:17,139 autoreload 23480 31924 C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\lecture_project\settings.py changed, reloading.
+INFO 2024-07-31 00:55:17,139 autoreload 23480 31924 C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\gb_python_django\settings.py changed, reloading.
 INFO 2024-07-31 00:55:17,679 autoreload 5104 3100 Watching for file changes with StatReloader
 INFO 2024-07-31 00:59:08,166 basehttp 5104 31100 "GET /les3/about/ HTTP/1.1" 200 218
 INFO 2024-07-31 00:59:10,575 basehttp 5104 31100 "GET /les3/ HTTP/1.1" 200 173
 INFO 2024-07-31 00:59:11,338 basehttp 5104 31100 "GET /les3/ HTTP/1.1" 200 173
 INFO 2024-07-31 00:59:13,692 basehttp 5104 31100 "GET /les3/about/ HTTP/1.1" 200 218
-INFO 2024-07-31 01:01:23,674 autoreload 5104 3100 C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\lecture_project\urls.py changed, reloading.
+INFO 2024-07-31 01:01:23,674 autoreload 5104 3100 C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\gb_python_django\urls.py changed, reloading.
 INFO 2024-07-31 01:01:24,149 autoreload 16732 9916 Watching for file changes with StatReloader
 INFO 2024-07-31 01:01:30,850 basehttp 16732 31976 "GET / HTTP/1.1" 200 173
-INFO 2024-07-31 01:02:08,677 autoreload 16732 9916 C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp3\models.py changed, reloading.
+INFO 2024-07-31 01:02:08,677 autoreload 16732 9916 C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp3\models.py changed, reloading.
 INFO 2024-07-31 01:02:09,223 autoreload 27516 1624 Watching for file changes with StatReloader
-INFO 2024-07-31 01:02:16,590 autoreload 27516 1624 C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp3\models.py changed, reloading.
+INFO 2024-07-31 01:02:16,590 autoreload 27516 1624 C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp3\models.py changed, reloading.
 INFO 2024-07-31 02:12:53,430 autoreload 7832 2672 Watching for file changes with StatReloader
 INFO 2024-07-31 02:12:56,719 basehttp 7832 3480 "GET / HTTP/1.1" 200 173
 INFO 2024-07-31 02:13:06,290 basehttp 7832 3480 "GET /les3/author/1 HTTP/1.1" 200 1051
 INFO 2024-07-31 02:13:35,828 basehttp 7832 3480 "GET /les3/author/5 HTTP/1.1" 200 1081
 INFO 2024-07-31 02:13:38,572 basehttp 7832 3480 "GET /les3/post/50 HTTP/1.1" 200 615
 INFO 2024-07-31 02:13:42,392 basehttp 7832 3480 "GET /les3/post/47 HTTP/1.1" 200 563
-INFO 2024-07-31 02:18:52,082 autoreload 7832 2672 C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp3\views.py changed, reloading.
+INFO 2024-07-31 02:18:52,082 autoreload 7832 2672 C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp3\views.py changed, reloading.
 INFO 2024-07-31 02:18:52,646 autoreload 21852 20120 Watching for file changes with StatReloader
-INFO 2024-07-31 02:21:25,627 autoreload 21852 20120 C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp3\views.py changed, reloading.
+INFO 2024-07-31 02:21:25,627 autoreload 21852 20120 C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp3\views.py changed, reloading.
 INFO 2024-07-31 02:21:25,963 autoreload 22964 19212 Watching for file changes with StatReloader
 INFO 2024-07-31 02:21:28,911 basehttp 22964 12828 "GET / HTTP/1.1" 200 214
 ERROR 2024-07-31 02:21:31,942 log 22964 12828 Internal Server Error: /les3/authors/
@@ -171,7 +171,7 @@ Traceback (most recent call last):
     response = get_response(request)
   File "C:\Users\Nurzhan\PycharmProjects\django_GB\.venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp3\views.py", line 86, in author_list
+  File "C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp3\views.py", line 86, in author_list
     return render(request, 'myapp3/author_list.html', {"authors": authors})
   File "C:\Users\Nurzhan\PycharmProjects\django_GB\.venv\lib\site-packages\django\shortcuts.py", line 24, in render
     content = loader.render_to_string(template_name, context, request, using=using)
@@ -227,7 +227,7 @@ Traceback (most recent call last):
     response = get_response(request)
   File "C:\Users\Nurzhan\PycharmProjects\django_GB\.venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp3\views.py", line 86, in author_list
+  File "C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp3\views.py", line 86, in author_list
     return render(request, 'myapp3/author_list.html', {"authors": authors})
   File "C:\Users\Nurzhan\PycharmProjects\django_GB\.venv\lib\site-packages\django\shortcuts.py", line 24, in render
     content = loader.render_to_string(template_name, context, request, using=using)
@@ -334,10 +334,10 @@ ValueError: The view myapp4.views.user_form didn't return an HttpResponse object
 ERROR 2024-07-31 12:26:36,447 basehttp 2964 15060 "GET /les4/user/add/ HTTP/1.1" 500 67159
 WARNING 2024-07-31 12:26:41,882 log 2964 15060 Not Found: /les4/ user/add/
 WARNING 2024-07-31 12:26:41,883 basehttp 2964 15060 "GET /les4/%20user/add/ HTTP/1.1" 404 2624
-INFO 2024-07-31 12:27:52,786 autoreload 2964 4208 C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp4\views.py changed, reloading.
+INFO 2024-07-31 12:27:52,786 autoreload 2964 4208 C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp4\views.py changed, reloading.
 INFO 2024-07-31 12:27:53,151 autoreload 18904 5616 Watching for file changes with StatReloader
 INFO 2024-07-31 12:28:07,008 basehttp 18904 1540 "GET / HTTP/1.1" 200 214
-INFO 2024-07-31 12:28:07,739 autoreload 18904 5616 C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp4\views.py changed, reloading.
+INFO 2024-07-31 12:28:07,739 autoreload 18904 5616 C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp4\views.py changed, reloading.
 INFO 2024-07-31 12:28:08,079 autoreload 19000 14112 Watching for file changes with StatReloader
 INFO 2024-07-31 12:28:13,178 basehttp 19000 19916 "GET /les4/user/add/ HTTP/1.1" 200 681
 INFO 2024-07-31 12:30:36,909 autoreload 29464 30512 Watching for file changes with StatReloader
@@ -356,36 +356,36 @@ INFO 2024-07-31 12:41:56,143 basehttp 29464 27620 "POST /les4/user/add/ HTTP/1.1
 INFO 2024-07-31 12:41:56,299 basehttp 29464 27620 "POST /les4/user/add/ HTTP/1.1" 200 951
 INFO 2024-07-31 12:41:56,460 basehttp 29464 27620 "POST /les4/user/add/ HTTP/1.1" 200 951
 INFO 2024-07-31 12:41:56,623 basehttp 29464 27620 "POST /les4/user/add/ HTTP/1.1" 200 951
-INFO 2024-07-31 12:43:31,063 autoreload 29464 30512 C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp4\views.py changed, reloading.
+INFO 2024-07-31 12:43:31,063 autoreload 29464 30512 C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp4\views.py changed, reloading.
 INFO 2024-07-31 12:43:31,563 autoreload 29128 12164 Watching for file changes with StatReloader
-INFO 2024-07-31 12:44:45,613 autoreload 29128 12164 C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\lecture_project\settings.py changed, reloading.
+INFO 2024-07-31 12:44:45,613 autoreload 29128 12164 C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\gb_python_django\settings.py changed, reloading.
 INFO 2024-07-31 12:44:45,971 autoreload 15760 16244 Watching for file changes with StatReloader
 INFO 2024-07-31 12:44:51,424 basehttp 15760 19472 "POST /les4/user/add/ HTTP/1.1" 200 951
-INFO 2024-07-31 12:49:11,802 autoreload 15760 16244 C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp4\forms.py changed, reloading.
+INFO 2024-07-31 12:49:11,802 autoreload 15760 16244 C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp4\forms.py changed, reloading.
 INFO 2024-07-31 12:49:12,131 autoreload 14240 12572 Watching for file changes with StatReloader
-INFO 2024-07-31 12:49:24,482 autoreload 14240 12572 C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp4\forms.py changed, reloading.
+INFO 2024-07-31 12:49:24,482 autoreload 14240 12572 C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp4\forms.py changed, reloading.
 INFO 2024-07-31 12:49:24,866 autoreload 15712 32748 Watching for file changes with StatReloader
-INFO 2024-07-31 12:49:28,163 autoreload 15712 32748 C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp4\forms.py changed, reloading.
+INFO 2024-07-31 12:49:28,163 autoreload 15712 32748 C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp4\forms.py changed, reloading.
 INFO 2024-07-31 12:49:28,565 autoreload 13268 17500 Watching for file changes with StatReloader
-INFO 2024-07-31 12:49:29,825 autoreload 13268 17500 C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp4\forms.py changed, reloading.
+INFO 2024-07-31 12:49:29,825 autoreload 13268 17500 C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp4\forms.py changed, reloading.
 INFO 2024-07-31 12:49:30,251 autoreload 21296 18724 Watching for file changes with StatReloader
-INFO 2024-07-31 12:49:42,729 autoreload 21296 18724 C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp4\forms.py changed, reloading.
+INFO 2024-07-31 12:49:42,729 autoreload 21296 18724 C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp4\forms.py changed, reloading.
 INFO 2024-07-31 12:49:43,085 autoreload 19688 1904 Watching for file changes with StatReloader
-INFO 2024-07-31 12:49:47,361 autoreload 19688 1904 C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp4\forms.py changed, reloading.
+INFO 2024-07-31 12:49:47,361 autoreload 19688 1904 C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp4\forms.py changed, reloading.
 INFO 2024-07-31 12:49:47,789 autoreload 2652 19100 Watching for file changes with StatReloader
-INFO 2024-07-31 12:49:53,239 autoreload 2652 19100 C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp4\forms.py changed, reloading.
+INFO 2024-07-31 12:49:53,239 autoreload 2652 19100 C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp4\forms.py changed, reloading.
 INFO 2024-07-31 12:49:53,718 autoreload 10944 14924 Watching for file changes with StatReloader
-INFO 2024-07-31 12:50:00,061 autoreload 10944 14924 C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp4\forms.py changed, reloading.
+INFO 2024-07-31 12:50:00,061 autoreload 10944 14924 C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp4\forms.py changed, reloading.
 INFO 2024-07-31 12:50:00,399 autoreload 23712 12200 Watching for file changes with StatReloader
-INFO 2024-07-31 12:50:07,791 autoreload 23712 12200 C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp4\forms.py changed, reloading.
+INFO 2024-07-31 12:50:07,791 autoreload 23712 12200 C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp4\forms.py changed, reloading.
 INFO 2024-07-31 12:50:08,248 autoreload 19328 30292 Watching for file changes with StatReloader
-INFO 2024-07-31 12:50:14,680 autoreload 19328 30292 C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp4\forms.py changed, reloading.
+INFO 2024-07-31 12:50:14,680 autoreload 19328 30292 C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp4\forms.py changed, reloading.
 INFO 2024-07-31 12:50:15,019 autoreload 15492 6676 Watching for file changes with StatReloader
-INFO 2024-07-31 12:50:28,548 autoreload 15492 6676 C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp4\forms.py changed, reloading.
+INFO 2024-07-31 12:50:28,548 autoreload 15492 6676 C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp4\forms.py changed, reloading.
 INFO 2024-07-31 12:50:28,889 autoreload 27900 32236 Watching for file changes with StatReloader
-INFO 2024-07-31 14:49:30,220 autoreload 27900 32236 C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp4\views.py changed, reloading.
+INFO 2024-07-31 14:49:30,220 autoreload 27900 32236 C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp4\views.py changed, reloading.
 INFO 2024-07-31 14:49:30,810 autoreload 7540 23160 Watching for file changes with StatReloader
-INFO 2024-07-31 14:50:08,954 autoreload 7540 23160 C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp4\views.py changed, reloading.
+INFO 2024-07-31 14:50:08,954 autoreload 7540 23160 C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp4\views.py changed, reloading.
 INFO 2024-07-31 14:50:09,492 autoreload 28572 16584 Watching for file changes with StatReloader
 INFO 2024-07-31 14:54:53,452 autoreload 5904 10072 Watching for file changes with StatReloader
 INFO 2024-07-31 14:55:01,010 basehttp 5904 30552 "GET /les4/form HTTP/1.1" 301 0
@@ -398,7 +398,7 @@ Traceback (most recent call last):
     response = get_response(request)
   File "C:\Users\Nurzhan\PycharmProjects\django_GB\.venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp4\views.py", line 32, in many_field_form
+  File "C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp4\views.py", line 32, in many_field_form
     birth_date = form.cleaned_data['birth_date']
 KeyError: 'birth_date'
 ERROR 2024-07-31 14:56:33,147 basehttp 5904 26604 "POST /les4/form/ HTTP/1.1" 500 69431
@@ -408,11 +408,11 @@ Traceback (most recent call last):
     response = get_response(request)
   File "C:\Users\Nurzhan\PycharmProjects\django_GB\.venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp4\views.py", line 32, in many_field_form
+  File "C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp4\views.py", line 32, in many_field_form
     birth_date = form.cleaned_data['birth_date']
 KeyError: 'birth_date'
 ERROR 2024-07-31 14:57:04,350 basehttp 5904 26604 "POST /les4/form/ HTTP/1.1" 500 69429
-INFO 2024-07-31 14:57:54,515 autoreload 5904 10072 C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp4\views.py changed, reloading.
+INFO 2024-07-31 14:57:54,515 autoreload 5904 10072 C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp4\views.py changed, reloading.
 INFO 2024-07-31 14:57:54,923 autoreload 20364 13928 Watching for file changes with StatReloader
 INFO 2024-07-31 14:57:57,004 basehttp 20364 26704 "GET /les4/form/ HTTP/1.1" 200 1720
 ERROR 2024-07-31 14:58:18,165 log 20364 26704 Internal Server Error: /les4/form/
@@ -421,43 +421,43 @@ Traceback (most recent call last):
     response = get_response(request)
   File "C:\Users\Nurzhan\PycharmProjects\django_GB\.venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp4\views.py", line 35, in many_field_form
+  File "C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp4\views.py", line 35, in many_field_form
     logger.info(f'Received {name=}, {email=}, {height=}, {is_active=}, {birth_date=}, {gender=}')
 NameError: name 'birth_date' is not defined
 ERROR 2024-07-31 14:58:18,167 basehttp 20364 26704 "POST /les4/form/ HTTP/1.1" 500 69888
-INFO 2024-07-31 14:58:31,219 autoreload 20364 13928 C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp4\views.py changed, reloading.
+INFO 2024-07-31 14:58:31,219 autoreload 20364 13928 C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp4\views.py changed, reloading.
 INFO 2024-07-31 14:58:31,647 autoreload 27500 30412 Watching for file changes with StatReloader
 INFO 2024-07-31 14:58:34,171 basehttp 27500 5564 "POST /les4/form/ HTTP/1.1" 200 1801
-INFO 2024-07-31 15:00:39,486 autoreload 27500 30412 C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp4\views.py changed, reloading.
+INFO 2024-07-31 15:00:39,486 autoreload 27500 30412 C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp4\views.py changed, reloading.
 INFO 2024-07-31 15:00:40,080 autoreload 5128 18600 Watching for file changes with StatReloader
-INFO 2024-07-31 15:00:47,491 autoreload 5128 18600 C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp4\views.py changed, reloading.
+INFO 2024-07-31 15:00:47,491 autoreload 5128 18600 C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp4\views.py changed, reloading.
 INFO 2024-07-31 15:00:47,868 autoreload 28520 24896 Watching for file changes with StatReloader
-INFO 2024-07-31 15:00:53,180 autoreload 28520 24896 C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp4\views.py changed, reloading.
+INFO 2024-07-31 15:00:53,180 autoreload 28520 24896 C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp4\views.py changed, reloading.
 INFO 2024-07-31 15:00:53,689 autoreload 18944 18188 Watching for file changes with StatReloader
 INFO 2024-07-31 15:01:38,210 basehttp 18944 9604 "POST /les4/form/ HTTP/1.1" 200 1514
 INFO 2024-07-31 15:01:43,636 basehttp 18944 9604 "POST /les4/form/ HTTP/1.1" 200 1514
-INFO 2024-07-31 15:24:48,862 autoreload 18944 18188 C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp4\forms.py changed, reloading.
+INFO 2024-07-31 15:24:48,862 autoreload 18944 18188 C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp4\forms.py changed, reloading.
 INFO 2024-07-31 15:24:49,919 autoreload 32172 17768 Watching for file changes with StatReloader
-INFO 2024-07-31 15:25:38,248 autoreload 32172 17768 C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp4\forms.py changed, reloading.
+INFO 2024-07-31 15:25:38,248 autoreload 32172 17768 C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp4\forms.py changed, reloading.
 INFO 2024-07-31 15:25:38,640 autoreload 7632 13740 Watching for file changes with StatReloader
 INFO 2024-07-31 15:35:57,041 autoreload 32276 11532 Watching for file changes with StatReloader
 INFO 2024-07-31 15:36:03,796 basehttp 32276 28212 "GET /les4/form/widget HTTP/1.1" 301 0
 INFO 2024-07-31 15:36:03,827 basehttp 32276 12240 "GET /les4/form/widget/ HTTP/1.1" 200 2000
 INFO 2024-07-31 15:36:44,866 basehttp 32276 14612 "POST /les4/form/widget/ HTTP/1.1" 200 2133
-INFO 2024-07-31 16:21:02,189 autoreload 32276 11532 C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp4\forms.py changed, reloading.
+INFO 2024-07-31 16:21:02,189 autoreload 32276 11532 C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp4\forms.py changed, reloading.
 INFO 2024-07-31 16:21:02,977 autoreload 27788 5108 Watching for file changes with StatReloader
 INFO 2024-07-31 16:21:14,950 basehttp 27788 18148 "POST /les4/form/widget/ HTTP/1.1" 200 2133
-INFO 2024-07-31 16:24:52,609 autoreload 27788 5108 C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp4\forms.py changed, reloading.
+INFO 2024-07-31 16:24:52,609 autoreload 27788 5108 C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp4\forms.py changed, reloading.
 INFO 2024-07-31 16:24:53,281 autoreload 12228 27492 Watching for file changes with StatReloader
-INFO 2024-07-31 16:25:10,939 autoreload 12228 27492 C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp4\forms.py changed, reloading.
+INFO 2024-07-31 16:25:10,939 autoreload 12228 27492 C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp4\forms.py changed, reloading.
 INFO 2024-07-31 16:25:11,480 autoreload 10140 19116 Watching for file changes with StatReloader
-INFO 2024-07-31 16:27:59,413 autoreload 10140 19116 C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp4\models.py changed, reloading.
+INFO 2024-07-31 16:27:59,413 autoreload 10140 19116 C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp4\models.py changed, reloading.
 INFO 2024-07-31 16:28:00,474 autoreload 20532 28428 Watching for file changes with StatReloader
 INFO 2024-07-31 16:32:14,678 autoreload 12164 30304 Watching for file changes with StatReloader
-INFO 2024-07-31 16:32:27,279 autoreload 12164 30304 C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp4\views.py changed, reloading.
+INFO 2024-07-31 16:32:27,279 autoreload 12164 30304 C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp4\views.py changed, reloading.
 INFO 2024-07-31 16:32:27,812 autoreload 16364 4676 Watching for file changes with StatReloader
 INFO 2024-07-31 16:33:08,096 autoreload 24692 7424 Watching for file changes with StatReloader
-INFO 2024-07-31 16:35:13,346 autoreload 24692 7424 C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp4\urls.py changed, reloading.
+INFO 2024-07-31 16:35:13,346 autoreload 24692 7424 C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp4\urls.py changed, reloading.
 INFO 2024-07-31 16:35:13,952 autoreload 30952 15752 Watching for file changes with StatReloader
 INFO 2024-07-31 16:35:15,178 basehttp 30952 20828 "GET /les4/user/add HTTP/1.1" 301 0
 INFO 2024-07-31 16:35:15,208 basehttp 30952 8384 "GET /les4/user/add/ HTTP/1.1" 200 783
@@ -465,11 +465,11 @@ INFO 2024-07-31 16:35:24,373 basehttp 30952 8384 "POST /les4/user/add/ HTTP/1.1"
 INFO 2024-07-31 16:37:50,050 basehttp 30952 5832 "POST /les4/user/add/ HTTP/1.1" 200 925
 INFO 2024-07-31 16:37:52,109 basehttp 30952 5832 "POST /les4/user/add/ HTTP/1.1" 200 925
 INFO 2024-07-31 16:37:52,720 basehttp 30952 5832 "POST /les4/user/add/ HTTP/1.1" 200 925
-INFO 2024-07-31 16:38:47,366 autoreload 30952 15752 C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp4\views.py changed, reloading.
+INFO 2024-07-31 16:38:47,366 autoreload 30952 15752 C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp4\views.py changed, reloading.
 INFO 2024-07-31 16:38:47,996 autoreload 16408 30412 Watching for file changes with StatReloader
 INFO 2024-07-31 16:38:48,428 basehttp 16408 11392 "POST /les4/user/add/ HTTP/1.1" 200 986
 INFO 2024-07-31 16:39:00,963 basehttp 16408 11392 "POST /les4/user/add/ HTTP/1.1" 200 926
-INFO 2024-07-31 16:39:58,038 autoreload 16408 30412 C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp4\forms.py changed, reloading.
+INFO 2024-07-31 16:39:58,038 autoreload 16408 30412 C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp4\forms.py changed, reloading.
 INFO 2024-07-31 16:39:58,376 autoreload 30264 10716 Watching for file changes with StatReloader
 INFO 2024-07-31 16:47:31,622 autoreload 21168 31660 Watching for file changes with StatReloader
 INFO 2024-07-31 16:47:37,435 basehttp 21168 26716 "GET /les4/upload HTTP/1.1" 301 0
@@ -504,7 +504,7 @@ INFO 2024-08-03 09:11:15,799 basehttp 25772 17204 "GET /static/admin/css/base.cs
 INFO 2024-08-03 09:11:15,801 basehttp 25772 26232 "GET /static/admin/css/login.css HTTP/1.1" 200 958
 INFO 2024-08-03 09:11:15,803 basehttp 25772 19952 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
 INFO 2024-08-03 09:11:15,805 basehttp 25772 25848 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18559
-INFO 2024-08-03 09:12:38,703 autoreload 25772 6756 C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\lecture_project\settings.py changed, reloading.
+INFO 2024-08-03 09:12:38,703 autoreload 25772 6756 C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\gb_python_django\settings.py changed, reloading.
 INFO 2024-08-03 09:12:39,163 autoreload 23992 27444 Watching for file changes with StatReloader
 INFO 2024-08-03 09:13:50,709 autoreload 23484 19564 Watching for file changes with StatReloader
 INFO 2024-08-03 09:13:52,076 basehttp 23484 25740 "GET / HTTP/1.1" 200 214
@@ -611,7 +611,7 @@ INFO 2024-08-03 09:19:11,710 basehttp 23484 16388 "POST /admin/login/?next=/admi
 INFO 2024-08-03 09:19:11,718 basehttp 23484 16388 "GET /admin/ HTTP/1.1" 200 4528
 INFO 2024-08-03 09:19:13,791 basehttp 23484 16388 "GET /admin/login/?next=/admin/ HTTP/1.1" 302 0
 INFO 2024-08-03 09:19:13,800 basehttp 23484 16388 "GET /admin/ HTTP/1.1" 200 4528
-INFO 2024-08-03 09:20:04,128 autoreload 23484 19564 C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp5\models.py changed, reloading.
+INFO 2024-08-03 09:20:04,128 autoreload 23484 19564 C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp5\models.py changed, reloading.
 INFO 2024-08-03 09:20:04,883 autoreload 13860 27208 Watching for file changes with StatReloader
 INFO 2024-08-03 09:21:30,752 autoreload 3932 26296 Watching for file changes with StatReloader
 INFO 2024-08-03 09:21:34,176 basehttp 3932 15228 "GET /admin/ HTTP/1.1" 200 4528
@@ -621,7 +621,7 @@ INFO 2024-08-03 09:21:38,702 basehttp 3932 15228 "GET /admin/ HTTP/1.1" 302 0
 INFO 2024-08-03 09:21:38,713 basehttp 3932 15228 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
 INFO 2024-08-03 09:21:48,106 basehttp 3932 15228 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
 INFO 2024-08-03 09:21:48,116 basehttp 3932 15228 "GET /admin/ HTTP/1.1" 200 8351
-INFO 2024-08-03 09:22:41,123 autoreload 3932 26296 C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp2\admin.py changed, reloading.
+INFO 2024-08-03 09:22:41,123 autoreload 3932 26296 C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp2\admin.py changed, reloading.
 INFO 2024-08-03 09:22:41,620 autoreload 15876 8772 Watching for file changes with StatReloader
 INFO 2024-08-03 09:22:48,036 basehttp 15876 23896 "GET /admin/ HTTP/1.1" 200 9409
 INFO 2024-08-03 09:22:53,221 basehttp 15876 22612 "POST /admin/logout/ HTTP/1.1" 200 3576
@@ -703,9 +703,9 @@ INFO 2024-08-03 09:25:36,038 basehttp 15876 14668 "GET /admin/jsi18n/ HTTP/1.1" 
 INFO 2024-08-03 09:25:36,431 basehttp 15876 14668 "GET /admin/myapp5/ HTTP/1.1" 200 5496
 INFO 2024-08-03 09:25:37,772 basehttp 15876 14668 "GET /admin/myapp5/category/ HTTP/1.1" 200 10128
 INFO 2024-08-03 09:25:37,793 basehttp 15876 14668 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
-INFO 2024-08-03 09:27:21,797 autoreload 15876 8772 C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp5\models.py changed, reloading.
+INFO 2024-08-03 09:27:21,797 autoreload 15876 8772 C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp5\models.py changed, reloading.
 INFO 2024-08-03 09:27:22,318 autoreload 22236 4952 Watching for file changes with StatReloader
-INFO 2024-08-03 09:28:41,322 autoreload 22236 4952 C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp5\models.py changed, reloading.
+INFO 2024-08-03 09:28:41,322 autoreload 22236 4952 C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp5\models.py changed, reloading.
 INFO 2024-08-03 09:28:41,717 autoreload 17248 19848 Watching for file changes with StatReloader
 INFO 2024-08-03 09:30:05,509 autoreload 26972 17668 Watching for file changes with StatReloader
 INFO 2024-08-03 09:30:08,008 basehttp 26972 17888 "GET / HTTP/1.1" 200 214
@@ -715,9 +715,9 @@ INFO 2024-08-03 09:30:14,670 basehttp 26972 17888 "GET /admin/myapp5/product/ HT
 INFO 2024-08-03 09:30:14,702 basehttp 26972 17888 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
 INFO 2024-08-03 09:30:15,802 basehttp 26972 17888 "GET /admin/myapp5/product/4/change/ HTTP/1.1" 200 13772
 INFO 2024-08-03 09:30:15,837 basehttp 26972 17888 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
-INFO 2024-08-03 09:39:33,321 autoreload 26972 17668 C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp5\admin.py changed, reloading.
+INFO 2024-08-03 09:39:33,321 autoreload 26972 17668 C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp5\admin.py changed, reloading.
 INFO 2024-08-03 09:39:33,850 autoreload 27080 8732 Watching for file changes with StatReloader
-INFO 2024-08-03 09:40:22,298 autoreload 27080 8732 C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp5\admin.py changed, reloading.
+INFO 2024-08-03 09:40:22,298 autoreload 27080 8732 C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp5\admin.py changed, reloading.
 INFO 2024-08-03 09:40:23,302 autoreload 376 15048 Watching for file changes with StatReloader
 INFO 2024-08-03 09:40:33,976 basehttp 376 13080 "GET / HTTP/1.1" 200 214
 INFO 2024-08-03 09:40:37,716 basehttp 376 13080 "GET /admin/ HTTP/1.1" 200 10582
@@ -729,7 +729,7 @@ INFO 2024-08-03 09:41:04,406 basehttp 376 13080 "GET /admin/myapp5/product/?o=2 
 INFO 2024-08-03 09:41:04,433 basehttp 376 13080 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
 INFO 2024-08-03 09:41:05,753 basehttp 376 13080 "GET /admin/myapp5/product/?o=3.2 HTTP/1.1" 200 11661
 INFO 2024-08-03 09:41:05,772 basehttp 376 13080 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
-INFO 2024-08-03 09:44:11,571 autoreload 376 15048 C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp5\admin.py changed, reloading.
+INFO 2024-08-03 09:44:11,571 autoreload 376 15048 C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp5\admin.py changed, reloading.
 INFO 2024-08-03 09:44:11,949 autoreload 3220 1044 Watching for file changes with StatReloader
 INFO 2024-08-03 09:44:21,040 basehttp 3220 11408 "GET /admin/myapp5/product/?o=3.2 HTTP/1.1" 200 12859
 INFO 2024-08-03 09:44:21,074 basehttp 3220 11408 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
@@ -741,7 +741,7 @@ INFO 2024-08-03 09:45:00,441 basehttp 3220 11408 "GET /admin/myapp5/product/?dat
 INFO 2024-08-03 09:45:00,472 basehttp 3220 11408 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
 INFO 2024-08-03 09:45:01,610 basehttp 3220 11408 "GET /admin/myapp5/product/?date_added__gte=2024-08-03+00%3A00%3A00%2B00%3A00&date_added__lt=2024-08-04+00%3A00%3A00%2B00%3A00&o=3.2&price=999999.99 HTTP/1.1" 200 14910
 INFO 2024-08-03 09:45:01,638 basehttp 3220 11408 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
-INFO 2024-08-03 09:45:50,607 autoreload 3220 1044 C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp5\admin.py changed, reloading.
+INFO 2024-08-03 09:45:50,607 autoreload 3220 1044 C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp5\admin.py changed, reloading.
 INFO 2024-08-03 09:45:50,958 autoreload 22524 16356 Watching for file changes with StatReloader
 INFO 2024-08-03 09:45:51,650 basehttp 22524 21916 "GET /admin/myapp5/product/?date_added__gte=2024-08-03+00%3A00%3A00%2B00%3A00&date_added__lt=2024-08-04+00%3A00%3A00%2B00%3A00&o=3.2&price=999999.99 HTTP/1.1" 200 15622
 INFO 2024-08-03 09:45:51,670 basehttp 22524 21916 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
@@ -751,7 +751,7 @@ INFO 2024-08-03 09:46:01,868 basehttp 22524 21916 "GET /admin/myapp5/product/?q=
 INFO 2024-08-03 09:46:01,896 basehttp 22524 21916 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
 INFO 2024-08-03 09:46:03,045 basehttp 22524 21916 "GET /admin/myapp5/product/? HTTP/1.1" 200 13102
 INFO 2024-08-03 09:46:03,068 basehttp 22524 21916 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
-INFO 2024-08-03 09:48:33,154 autoreload 22524 16356 C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp5\admin.py changed, reloading.
+INFO 2024-08-03 09:48:33,154 autoreload 22524 16356 C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp5\admin.py changed, reloading.
 INFO 2024-08-03 09:48:33,562 autoreload 25752 23744 Watching for file changes with StatReloader
 INFO 2024-08-03 09:48:35,463 basehttp 25752 21964 "GET /admin/myapp5/product/? HTTP/1.1" 200 13102
 INFO 2024-08-03 09:48:35,564 basehttp 25752 21964 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
@@ -797,7 +797,7 @@ INFO 2024-08-03 09:49:29,833 basehttp 25752 21964 "GET /admin/myapp5/product/?o=
 INFO 2024-08-03 09:49:29,853 basehttp 25752 21964 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
 INFO 2024-08-03 09:49:31,974 basehttp 25752 21964 "GET /admin/myapp5/product/?o= HTTP/1.1" 200 12708
 INFO 2024-08-03 09:49:32,002 basehttp 25752 21964 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
-INFO 2024-08-03 09:50:50,230 autoreload 25752 23744 C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp5\admin.py changed, reloading.
+INFO 2024-08-03 09:50:50,230 autoreload 25752 23744 C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp5\admin.py changed, reloading.
 INFO 2024-08-03 09:50:50,802 autoreload 24160 25816 Watching for file changes with StatReloader
 INFO 2024-08-03 09:50:58,555 basehttp 24160 23684 "GET /admin/myapp5/product/4/change/?_changelist_filters=o%3D HTTP/1.1" 200 13858
 INFO 2024-08-03 09:50:58,596 basehttp 24160 23684 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
@@ -807,13 +807,13 @@ INFO 2024-08-03 09:51:06,968 basehttp 24160 23684 "GET /admin/myapp5/product/?o=
 INFO 2024-08-03 09:51:07,003 basehttp 24160 23684 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
 INFO 2024-08-03 09:51:25,704 basehttp 24160 23684 "GET /admin/myapp5/product/1/change/?_changelist_filters=o%3D HTTP/1.1" 200 13854
 INFO 2024-08-03 09:51:25,742 basehttp 24160 23684 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
-INFO 2024-08-03 09:52:08,925 autoreload 24160 25816 C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp5\admin.py changed, reloading.
+INFO 2024-08-03 09:52:08,925 autoreload 24160 25816 C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp5\admin.py changed, reloading.
 INFO 2024-08-03 09:52:09,277 autoreload 15372 8776 Watching for file changes with StatReloader
 INFO 2024-08-03 09:52:11,373 basehttp 15372 25740 "GET /admin/myapp5/product/?o= HTTP/1.1" 200 12820
 INFO 2024-08-03 09:52:21,762 basehttp 15372 25740 "POST /admin/myapp5/product/?o= HTTP/1.1" 302 0
 INFO 2024-08-03 09:52:21,780 basehttp 15372 25740 "GET /admin/myapp5/product/?o= HTTP/1.1" 200 12883
 INFO 2024-08-03 09:52:21,810 basehttp 15372 25740 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
-INFO 2024-08-03 10:16:25,625 autoreload 15372 8776 C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp5\admin.py changed, reloading.
+INFO 2024-08-03 10:16:25,625 autoreload 15372 8776 C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp5\admin.py changed, reloading.
 INFO 2024-08-03 10:16:26,053 autoreload 16404 12428 Watching for file changes with StatReloader
 INFO 2024-08-03 10:16:36,418 basehttp 16404 24384 "GET /admin/myapp5/product/4/change/?_changelist_filters=o%3D HTTP/1.1" 200 13069
 INFO 2024-08-03 10:16:36,455 basehttp 16404 24384 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
@@ -827,9 +827,9 @@ INFO 2024-08-03 10:17:02,240 basehttp 16404 24384 "GET /admin/myapp5/product/?o=
 INFO 2024-08-03 10:17:02,275 basehttp 16404 24384 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
 INFO 2024-08-03 10:17:04,633 basehttp 16404 24384 "GET /admin/myapp5/product/?o= HTTP/1.1" 200 12883
 INFO 2024-08-03 10:17:04,652 basehttp 16404 24384 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
-INFO 2024-08-03 10:20:46,886 autoreload 16404 12428 C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp5\admin.py changed, reloading.
+INFO 2024-08-03 10:20:46,886 autoreload 16404 12428 C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp5\admin.py changed, reloading.
 INFO 2024-08-03 10:20:47,258 autoreload 10616 10580 Watching for file changes with StatReloader
-INFO 2024-08-03 10:22:55,435 autoreload 10616 10580 C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp5\admin.py changed, reloading.
+INFO 2024-08-03 10:22:55,435 autoreload 10616 10580 C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp5\admin.py changed, reloading.
 INFO 2024-08-03 10:22:55,770 autoreload 23072 22904 Watching for file changes with StatReloader
 INFO 2024-08-03 10:22:59,560 basehttp 23072 8744 "GET /admin/myapp5/product/?o= HTTP/1.1" 200 12883
 INFO 2024-08-03 10:22:59,581 basehttp 23072 8744 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
@@ -891,7 +891,7 @@ Traceback (most recent call last):
     response = get_response(request)
   File "C:\Users\Nurzhan\PycharmProjects\django_GB\.venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp6\views.py", line 12, in total_in_db
+  File "C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp6\views.py", line 12, in total_in_db
     return render(request, 'myapp6/total_count.html', context)
   File "C:\Users\Nurzhan\PycharmProjects\django_GB\.venv\lib\site-packages\django\shortcuts.py", line 24, in render
     content = loader.render_to_string(template_name, context, request, using=using)
@@ -915,7 +915,7 @@ INFO 2024-08-08 12:44:12,995 basehttp 25888 21784 "GET /__debug__/render_panel/?
 INFO 2024-08-08 12:44:15,143 basehttp 25888 21784 "GET /__debug__/render_panel/?store_id=0d92d061195648ed9ab61eb06a35f46c&panel_id=SQLPanel HTTP/1.1" 200 115
 INFO 2024-08-08 12:45:37,592 basehttp 25888 21784 "GET /les6/template/ HTTP/1.1" 200 13785
 INFO 2024-08-08 12:45:38,592 basehttp 25888 21784 "GET /les6/template/ HTTP/1.1" 200 13785
-INFO 2024-08-08 12:45:59,364 autoreload 25888 29288 C:\Users\Nurzhan\PycharmProjects\django_GB\lecture_project\myapp6\views.py changed, reloading.
+INFO 2024-08-08 12:45:59,364 autoreload 25888 29288 C:\Users\Nurzhan\PycharmProjects\django_GB\gb_python_django\myapp6\views.py changed, reloading.
 INFO 2024-08-08 12:45:59,844 autoreload 26556 21096 Watching for file changes with StatReloader
 INFO 2024-08-08 12:46:02,215 basehttp 26556 13852 "GET /les6/template/ HTTP/1.1" 200 13803
 INFO 2024-08-08 12:46:03,172 basehttp 26556 13852 "GET /les6/template/ HTTP/1.1" 200 13803
