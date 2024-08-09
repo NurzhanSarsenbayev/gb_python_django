@@ -35,8 +35,8 @@ ALLOWED_HOSTS = [
     '192.168.0.101',
     '127.0.0.1',
     '172.27.224.1',
-    '192.168.56.1'
-    'shonan2030.pythonanywhere.com'
+    '192.168.56.1',
+    'shonan2030.pythonanywhere.com',
 ]
 
 INTERNAL_IPS = [
