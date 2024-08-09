@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>If template</title>
+</head>
+<body>
+    {% if message %}
+    	<p>You have a message: <br> {{ message }}</p>
+    {% endif %}
+
+    <p>
+        You have {{ number }}
+        {% if number == 1 %}
+        	post
+        {% else %}
+            posts
+        {% endif %}
+    </p>
+</body>
+</html>
+</if>
