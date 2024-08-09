@@ -102,7 +102,7 @@ WSGI_APPLICATION = 'gb_python_django.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'shonan2030%default',
+        'NAME': 'shonan2030$default',
         'USER': 'shonan2030',
         'PASSWORD': os.getenv('MYSQL_PASSWORD'),
         'HOST': 'shonan2030.mysql.pythonanywhere-services.com',
